@@ -1,0 +1,437 @@
+/*  CSS Declaration  */
+
+* {
+  border-top: 5px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", "sans-serif";
+  color: #777777;
+}
+header {
+  background: url(./woman-2608317_1280.jpg) no-repeat center;
+  background-size: cover;
+}
+
+nav {
+  padding: 12px 10px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  border: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding: 12px 40px;
+}
+
+.nav-item:hover {
+  background-color: black;
+  color: white;
+}
+
+.nav-item-home {
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 30px;
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.nav-item-home:hover {
+  background-color: black;
+  color: white;
+}
+
+.hero {
+  padding: 200px 0;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(52, 52, 52);
+  display: inline-block;
+  font-weight: normal;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+  padding-top: 80px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.about-paragraph {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  margin-right: 20px;
+  padding: 12px 24px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main-img {
+  max-width: 100%;
+}
+
+.right {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 12px 24px;
+}
+
+.right-paragraph {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 30px;
+}
+
+.good-at-head {
+  padding-top: 0;
+  font-size: 25px;
+}
+
+.photo {
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding: 15px 0;
+}
+
+.photo2 {
+  width: 90%;
+  background-color: #616161;
+  text-align: center;
+  padding: 10px 8px;
+  color: #fff;
+}
+
+.design {
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding: 15px 0;
+}
+
+.design2 {
+  width: 85%;
+  background-color: #616161;
+  text-align: center;
+  padding: 10px 8px;
+  color: #fff;
+}
+
+.photoshop {
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding: 15px 0;
+}
+
+.photoshop2 {
+  width: 75%;
+  background-color: #616161;
+  text-align: center;
+  padding: 10px 8px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+
+.results {
+  background-color: #616161;
+  width: 100%;
+}
+
+.partners {
+  display: inline-block;
+  color: #fff;
+  margin: 16px 0;
+  padding: 10px 10px;
+  text-align: center;
+  width: 22%;
+}
+.projects {
+  display: inline-block;
+  color: #fff;
+  margin: 16px 0;
+  padding: 10px 10px;
+  text-align: center;
+  width: 25%;
+}
+.clients {
+  display: inline-block;
+  color: #fff;
+  margin: 16px 0;
+  padding: 10px 10px;
+  text-align: center;
+  width: 25%;
+}
+.meetings {
+  display: inline-block;
+  color: #fff;
+  margin: 16px 0;
+  padding: 10px 10px;
+  text-align: center;
+  width: 22%;
+}
+
+span {
+  font-size: 30px;
+}
+
+.results-paragraph {
+  font-size: 20px;
+}
+
+.portfolio {
+  background: url(./woman-731395_1280.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.hero2 {
+  padding: 100px 0;
+}
+
+.hero2-head {
+  letter-spacing: 15px;
+  color: black;
+}
+
+.my-work {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.my-work-head {
+  font-size: 35px;
+}
+
+.my-work-paragraph {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.my-work-img1 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img2 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img3 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img4 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img5 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img6 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img7 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.my-work-img8 {
+  display: inline-block;
+  width: 23%;
+  vertical-align: middle;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button {
+  color: black;
+  padding: 20px 34px;
+  margin: 50px 45% 0;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  display: inline-block;
+  background-color: #d1d1d1bb;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(146, 144, 144);
+}
+
+.contact {
+  margin-top: 100px;
+  background: url(./hero3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.hero3 {
+  padding: 200px 0;
+}
+
+.contact-head {
+  padding: 0;
+  margin: 0 0 0 40px;
+  letter-spacing: 15px;
+  color: white;
+}
+
+.work-place {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.left-work-place {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.work-place-img {
+  width: 100%;
+}
+
+.work-place-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.work-place-p {
+  font-weight: 500;
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+input {
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+}
+
+.message {
+  width: 534px;
+  font-size: 20px;
+}
+
+.message-button {
+  color: white;
+  background-color: black;
+  margin: 30px 500px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.message-button:hover {
+  background-color: rgba(153, 149, 149, 0.76);
+  color: black;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: black;
+  padding: 150px;
+}
+
+.footer-a {
+  font-size: 20px;
+  padding: 20px 50px;
+  margin-left: 42%;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.footer-a:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer-p {
+  font-size: 20px;
+  color: white;
+  margin-left: 43%;
+  margin-top: 5%;
+}
+
+.material-icons {
+  padding-right: 10px;
+}

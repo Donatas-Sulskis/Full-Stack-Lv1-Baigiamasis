@@ -1,0 +1,64 @@
+/* CSS Declration */
+
+.writer {
+  margin: 0px;
+  padding: 0px;
+}
+.cells-mainhead {
+  color: #10ad83;
+}
+.cell-img {
+  width: 30%;
+}
+html {
+  text-align: left;
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+}
+.page2 {
+  background-color: #10ad83;
+  padding: 25px;
+  text-align: right;
+}
+.list1 {
+  margin-left: 50px;
+  list-style-position: inside;
+  font-weight: bold;
+  color: #10ad83;
+}
+.list1-pargraph {
+  margin-left: 50px;
+}
+ol {
+  padding: 0%;
+}
+.list2-heading {
+  color: #10ad83;
+}
+ul {
+  padding: 0%;
+}
+.list2 {
+  margin-left: 30px;
+  padding: 5px;
+  list-style-position: inside;
+}
+table,
+th,
+td,
+tr {
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 35%;
+  margin-left: 65px;
+}
+td {
+  padding: 5px;
+}
+th {
+  text-align: center;
+}
+td,
+tr,
+td {
+  font-weight: 500;
+}

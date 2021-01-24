@@ -1,0 +1,100 @@
+/* CSS Declaration */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  background: url(./blue-ocean.png) no-repeat center;
+  background-size: cover;
+}
+
+.hero {
+  padding: 200px;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: 40px;
+  width: 1400px;
+  padding: 20px;
+  margin-top: 400px;
+  background-color: rgba(245, 190, 24, 0.6);
+  vertical-align: bottom;
+}
+
+h1:hover {
+  background-color: rgba(189, 95, 8, 0.6);
+}
+
+main {
+  width: 1800px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.left-top {
+  border-top: 5px solid rgba(218, 169, 23);
+  vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin-right: 20px;
+}
+
+.phone {
+  width: 100%;
+  height: 460px;
+}
+
+.right-top {
+  border-top: 5px solid rgba(218, 169, 23);
+  vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin-left: 20px;
+}
+
+.walrus {
+  width: 100%;
+  height: 460px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+p {
+  font-weight: 450;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.left-bottom {
+  border-top: 5px solid rgba(218, 169, 23);
+  vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin-right: 20px;
+}
+
+.truck {
+  width: 100%;
+  height: 460px;
+}
+
+.right-bottom {
+  border-top: 5px solid rgba(218, 169, 23);
+  vertical-align: middle;
+  display: inline-block;
+  width: 48%;
+  margin-right: 20px;
+}
+
+.nowornever {
+  width: 100%;
+  height: 460px;
+}

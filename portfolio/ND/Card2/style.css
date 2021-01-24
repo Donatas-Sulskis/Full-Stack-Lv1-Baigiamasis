@@ -1,0 +1,187 @@
+/* CSS Declaration */
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  width: 1129px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-p {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.container1 {
+  border: 1px solid rgb(128, 128, 128, 0.3);
+  width: 45%;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  margin: 30px;
+}
+
+.container1-h2 {
+  padding-top: 20px;
+  background-color: white;
+  margin: 0;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 23px;
+}
+
+.container1-img1 {
+  position: absolute;
+}
+
+.container1-photos {
+  bottom: 230px;
+  font-weight: bold;
+  padding: 5px 15px;
+  color: white;
+  position: absolute;
+  border: 5px solid tomato;
+  background-color: tomato;
+}
+
+.container1-date {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 14px;
+  color: white;
+  position: absolute;
+  border: 1px solid tomato;
+  background-color: tomato;
+  right: 20px;
+  border-radius: 100%;
+}
+
+.container1-head {
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  bottom: 155px;
+  padding: 10px 43px;
+}
+
+.container1-p {
+  color: tomato;
+  font-weight: lighter;
+  font-size: 20px;
+  position: absolute;
+  bottom: 122px;
+  padding: 10px 43px;
+}
+
+.container1-ago {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+.container1-com {
+  left: 200px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.container2 {
+  border: 1px solid rgb(128, 128, 128, 0.3);
+  box-shadow: 20px 20px 50px grey;
+  width: 45%;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  margin: 30px;
+}
+
+.container2-h2 {
+  font-weight: bolder;
+  font-size: 23px;
+  background-color: white;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.container2-img1 {
+  height: 220px;
+  position: absolute;
+}
+
+.container2-photos {
+  bottom: 317px;
+  font-weight: bold;
+  padding: 5px 15px;
+  color: white;
+  position: absolute;
+  border: 5px solid tomato;
+  background-color: tomato;
+}
+
+.container2-date {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 14px;
+  color: white;
+  position: absolute;
+  border: 1px solid tomato;
+  background-color: tomato;
+  right: 20px;
+  border-radius: 100%;
+}
+
+.container2-head {
+  font-weight: bolder;
+  font-size: 30px;
+  position: absolute;
+  bottom: 244px;
+  padding: 10px 43px;
+}
+
+.container2-p {
+  color: tomato;
+  font-weight: lighter;
+  font-size: 20px;
+  position: absolute;
+  bottom: 214px;
+  padding: 10px 43px;
+}
+
+.container2-main-p {
+  color: grey;
+  font-weight: bolder;
+  line-height: 30px;
+  width: 320px;
+  text-align: justify;
+  position: absolute;
+  bottom: 80px;
+  padding: 10px 43px;
+}
+
+.container2-ago {
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+.container2-com {
+  left: 200px;
+  position: absolute;
+  bottom: 5px;
+}

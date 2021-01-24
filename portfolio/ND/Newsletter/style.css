@@ -1,0 +1,31 @@
+/* CSS Declaration */
+
+html {
+  font-family: Tahoma, sans-serif;
+  color: #525252;
+}
+.logo {
+  color: black;
+  font-family: cursive;
+  padding-bottom: 0%;
+}
+h2 {
+  font-weight: lighter;
+  margin-top: 0%;
+  font-size: 35px;
+  color: blueviolet;
+  margin-bottom: 0%;
+}
+.time {
+  color: tomato;
+}
+footer {
+  text-align: center;
+  color: white;
+  background-color: blueviolet;
+  padding: 20px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
