@@ -61,10 +61,10 @@ require('../header/header.php');
             </div>
             <div class="contact-main-form">
                 <form action="contact.php" method="POST">
-                    <span class="contact-span">Name</span> <br> <br><input class="input" name="inputName" type="text"> <br>
-                    <span class="contact-span">Email</span><i style="color:red;">*</i> <br> <br><input class="input" name="inputEmail" type="email"> <br>
-                    <span class="contact-span">Website</span> <br> <br><input class="input" name="inputWebsite" type="url"> <br>
-                    <span class="contact-span">Phone</span> <br> <br><input class="input" name="inputPhone" type="tel"> <br>
+                    <span class="contact-span">Name</span> <br> <br><input class="input" name="inputName" type="text" autocomplete="off"> <br>
+                    <span class="contact-span">Email</span><i style="color:red;">*</i> <br> <br><input class="input" name="inputEmail" type="email" autocomplete="off"> <br>
+                    <span class="contact-span">Website</span> <br> <br><input class="input" name="inputWebsite" type="url" autocomplete="off"> <br>
+                    <span class="contact-span">Phone</span> <br> <br><input class="input" name="inputPhone" type="tel" autocomplete="off"> <br>
                     <span class="contact-span">Privacy</span><i style="color:red;">*</i> <br> <br>
                     <span class="contact-privacy">By using this form you agree with the storage and handling of your data by this website.
                         Please read our <a href="https://www.random.org/terms/2020-08-01/privacy" target="_blank" class="contact-a"> Privacy Policy </a> for more information on how we handle your data.</span> <br>
